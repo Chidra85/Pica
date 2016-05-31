@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes.
+        See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1,
+        width=device-width, height=device-height" />
+    <!-- , target-densitydpi=device-dpi -->
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/css.css" />
+    <title>Vue résultats</title>
+
+</head>
+
+
+<body>
+
+    <!-- En-tete -->
+    <div id="footerBackground">
+        <div id="footerBorder">
+            <div id='container'>
+                <p class="descriptionText" align="center">
+                    Déchets ménagers produits
+                    <br> en (KG/personnes/an).
+                </p>
+
+                <!--<div id='row'>
+                    <div class='col-xs-4' id='mon_chiffre'>
+                    </div>
+                    <div class='col-xs-4' id='moy_national'>
+                    </div>
+                    <div class='col-xs-4' id='utilisateur_pica'>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </div>
+
+    <!-- Contenu -->
+    <br>
+    <br>
+
+    <div id="">
+        <div id="">
+            <div id='container'>
+
+
+                <div id='row'>
+                    <div class='col-xs-4' id='mon_chiffre'>
+                    </div>
+                    <div class='col-xs-4' id='moy_national'>
+                    </div>
+                    <div class='col-xs-4' id='utilisateur_pica'>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-6">
+        <canvas id="doughnut" />
+    </div>
+
+    <!-- Pied de page -->
+    <div id="valeur_type">
+        <span class='valeurType' id='bio_dechets'><br>bio déchet</span>
+        <span class='valeurType' id='recyclable'><br>recyclable</span>
+        <span class='valeurType' id='verre'><br>Verre</span>
+        <span class='valeurType' id='poubelle_grise'><br>Poubelle grise</span>
+    </div>
+
+    <div class="buttonbar">
+        <button class="boutton_accueil" type="button" onClick="self.location.href = 'accueil.html'">
+            <img src="images/pica2.png">
+            <br><span>Accueil</span><span id="active"></span></button>
+        <button class="boutton_accueil" type="button" onClick="self.location.href = 'repas.html'">
+            <img src="images/saisie.png" alt="repas">
+            <br><span>Repas</span></button>
+        <button class="boutton_accueil" type="button" onClick="self.location.href = 'pesee.html'">
+            <img src="images/poids.png" alt="pesee">
+            <br><span>Pesées</span></button>
+        <button class="boutton_accueil" type="button" onClick="self.location.href = 'resultats.html'">
+            <img src="images/stat-bleue.png">
+            <br><span>Résultats</span><span id="active"></span> </button>
+    </div>
+    <!-- Scripts -->
+    <!--<script type="text/javascript" src="cordova.js"></script>-->
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/Chart.js-master/Chart.min.js"></script>
+
+    <script type="text/javascript" src="js/graphes.js"></script>
+
+</body>
+
+</html>

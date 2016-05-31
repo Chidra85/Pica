@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes.
+        See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1,
+        width=device-width, height=device-height" />
+    <!-- , target-densitydpi=device-dpi -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/css.css" />
+    <title>Accueil</title>
+
+</head>
+
+
+<body>
+    <!-- En-tete -->
+    <div id="footerBackground">
+        <div id="footerBorder">
+            <p class="descriptionText" align="center"><strong>Pica</strong>
+                <br />Sais tu quelle quantité de déchets tu produits?</p>
+        </div>
+    </div>
+
+    <!-- Contenu -->
+    <div id="appBackground_accueil">
+        <div id="texte_accueil">
+            <p id="text">Pour le savoir, démarre une nouvelle période de mesure d'au minimum une semaine.</p>
+            <br>
+            <img src="images/pica.png" alt="accueil">
+        </div>
+        <p>
+            <input type="submit" class="btn btn-primary btn-lg btn-bloc" id="gestion_periode" value="Demarrer une nouvelle période">
+        </p>
+        <br>
+        <p id="texte_version">Version 2.3</p>
+        <p id="identifiant">ID:</p>
+    </div>
+
+    <!-- Pied de page -->
+    <div class="buttonbar">
+        <button class="boutton_accueil" type="button" onClick="self.location.href = 'accueil.html'">
+                <img src="images/pica2-bleue.png">
+            <br><span>Accueil</span><span id="active"></span></button>
+        <button class="boutton_accueil" type="button" onClick="self.location.href = 'repas.html'">
+            <img src="images/saisie.png" alt="repas">
+            <br><span>Repas</span></button>
+        <button class="boutton_accueil" type="button" onClick="self.location.href = 'pesee.html'">
+            <img src="images/poids.png" alt="pesee">
+            <br><span>Pesées</span></button>
+        <button class="boutton_accueil" type="button" onClick="self.location.href = 'resultats.html'">
+            <img src="images/stat.png">
+            <br><span>Résultats</span><span id="active"></span> </button>
+    </div>
+
+    <!-- Scripts -->
+    <!--<script type="text/javascript" src="cordova.js"></script>-->
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/DB_gestion_periode.js"></script>
+
+
+</body>
+
+</html>

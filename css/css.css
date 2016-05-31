@@ -1,0 +1,559 @@
+element
+{
+    height: 100%;
+}
+
+html,body,.container{
+    background-color:#D2F5E7;
+    }
+ 
+  
+body
+{
+    margin:0;
+    padding-top:20px;
+    /*min-height: auto;*/
+    overflow: auto;
+
+  background-color:#D2F5E7;
+}
+
+.test {
+    background-color: #337AB7
+}
+
+#dateDuJour{
+     text-align: center;
+   font-size: x-large;
+    font-family: Chalkduster;
+}
+
+/*h1{    
+    text-align: center;
+    background-color:#D2F5E7;
+    font-family: Chalkduster;
+}*/
+
+
+IMG.displayed
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;	
+    width:60%;
+    height:50%;
+}
+
+.buttonbar
+{	
+    bottom:0;
+    position: fixed;
+    clear:both;
+    height: 7%;	
+    background-color: black;
+    width: 104%;
+}
+
+.boutton
+{
+    float: left;
+    width: 25%;
+    text-align: center;   
+    background-color: transparent;
+    border: none;
+}
+
+.bouttonResultats
+{
+    float: left;
+    width: 34%;
+    text-align: center;   
+    background-color: transparent;
+    border: none;
+}
+ 
+.boutton_accueil
+{
+    float: left;
+    width: 25%;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    border: none;   
+}
+
+.boutonsLogin{
+    text-align: center;
+ }
+ 
+ #userConnexion,#createUser{
+     margin-right: 0.5em;
+     margin-left: 0.5em;
+ }
+
+.btn-periode_terminer
+{
+    background-color: red;
+}
+
+.active 
+{ 
+    background-color: blue;
+    color: #ffffff ; 
+    height: 100%;
+} 
+
+#appBackground
+{
+    background-color: #F6F3E7;
+    padding-top:0em;
+    height:100%;
+    padding-bottom: 3em;
+    max-height: 35em;
+}
+
+#valeurs_recuperees{
+    display: inline-block;
+    background-color: #F6F3E7;
+    /*padding-top: 6.2em;*/
+    text-align: center;
+    width:100%;
+}
+
+.valeur{
+    margin:0;
+    /*size: 1pts;*/
+    padding: 0em 2.8em 0em 2.8em;
+    font-size: 1.4em;
+    font-family: Chalkduster;
+}
+#appBackground_accueil
+{
+    background-color: #81B29F;
+    padding-top: 1.2em;
+    /*padding-bottom: 10em;  <!> HARDCODED */
+    height: 40em;
+}
+
+#footerBackground
+{
+    background-color: #dc4e4e;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+#footerBorder
+{
+    width:100%;
+    height:20%;
+    border-width: 2em 1em 0em 1em;
+	border-style:solid;
+	border-color:#F6F3E7;
+    /*display:block;*/
+    border-radius: 10px; /*Pour Firefox*/
+}
+
+#footerBackgroundIndex
+{
+    background-color: #dc4e4e;
+    padding: 0.5em 1em 0.5em 1em;
+} 
+
+#footerBorderIndex
+{
+    width:100%;
+    height:20%;
+    border-width: 3em 1em 3em 1em;
+	border-style:solid;
+	border-color:#F6F3E7;
+    /*display:block;*/
+    border-radius: 10px; /*Pour Firefox*/
+}
+
+#footerBorderResultats
+{
+    width:100%;
+    height:20%;
+    border-width: 2em 1em 5em 1em;
+	border-style:solid;
+	border-color:#F6F3E7;
+    /*display:block;*/
+    border-radius: 10px; /*Pour Firefox*/
+}
+
+.tabcenter{
+   margin-left:1em;
+   margin-right:1em;
+   padding:2;
+   border-spacing : 0; 
+   width: 100%;
+   font-family: Chalkduster;
+   vertical-align:middle;
+    ;
+}
+
+.tableau_moyenne
+{ 
+    font-size: small;
+    background-color: #F6F3E7;
+    font-family: Chalkduster;
+    margin-top: 0em;
+}
+table thead tr th{ border:0 ou none; }
+table tbody tr td{ border: 1px solid #ccc; }
+
+
+.descriptionText
+{
+    margin:0;
+    /*size: 1pts;*/
+    /*padding: 0em 0.8em 0em 0.8em;*/
+    font-size: small;
+    background-color: #F6F3E7;
+    font-family: Chalkduster;
+    margin-top: -2em;
+}
+
+.descriptionTextLogin
+{
+    margin:0;
+    /*size: 1pts;*/
+    /*padding: 0em 0.8em 2em 0.8em;*/
+    font-size: large;
+    background-color: #F6F3E7;
+    font-family: Chalkduster;
+    margin-top: 0em;
+}
+.form-horizontal{
+    margin-top: 2em;
+}
+
+#doughnut{
+    
+    width: 100%;
+    margin-top:10em;
+    background-color: #D2F5E7;
+    font-family: Chalkduster;
+}
+
+.col-xs-4{
+    margin-top:0.7em;
+    font-family: Chalkduster;
+}
+
+.row{
+    background-color:#D2F5E7;
+    max-width: 100%;
+}
+#tableau
+{
+    height:100%;
+    width:100%;
+    background-color: #F6F3E7;
+}
+
+#Grammes
+{	
+    text-align: right;
+    background-color: #81B29F;
+    color: white;
+    height:10%;
+    width:100%;
+}
+
+#titre_Grammes
+{
+    margin-right: 5%;
+    font-size: 0.5em;
+    font-family: Chalkduster;
+}
+
+#Date
+{	
+    display: inline-block;
+    width: 100%;
+    height: 4em;
+    text-align: center;
+    background-color: #81B29F;
+    color: white;
+    margin: 0% auto 5% auto;
+    /*padding: 0.2em 0% 0.2em auto;*/
+}
+
+#Date h1
+{	
+    text-align: center;
+    color: white;
+    margin: 0% 0% 5% 0%;
+    padding: 0.2em 0% 0.2em 0%;
+    float: left;
+}
+
+.lignesFormulaire_Pesee
+{
+    background-color: paleturquoise;
+    padding:2%;
+    width:100%;
+    margin:0%;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    min-height: 4em;
+           
+}
+
+.lignesFormulaire1_Pesee
+{
+    background-color: #f2f2f2;
+    padding:2%;
+    width:100%;
+    margin:0%;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    min-height: 4em
+      
+}
+
+.lignesFormulaireBleu_Repas
+{
+    background-color: #f2f2f2;
+    padding: 0em 0.5em 0em 0em;
+    width: 92%;
+    margin: 2% 4% 2% 4%;
+    text-align: center;
+    font-weight: bold;
+    min-height: 4em;
+}
+
+.lignesFormulaireGris_Repas
+{
+    background-color: paleturquoise;
+    padding: 0em 0.5em 0em 0em;
+    width: 92%;
+    margin: 2% 4% 2% 4%;
+    text-align: center;
+    font-weight: bold;
+    min-height: 4em;
+}
+.lignesFormulaireEnregistrer_Repas
+{
+    padding: 0.2em 0.5em 0.2em 1em;
+    width: 92%;
+    margin: -0% 4% 0% 4%;
+    text-align: center;
+    font-weight: bold;
+    min-height: 5em;
+}
+
+.contenuDecale
+{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0.8em;
+}
+
+.iconesFormulaire
+{
+    float:left;
+    width: 40px;
+    border-radius: 10px;
+}
+
+.intitule
+{
+    font-size: large;
+    color: darkgray;
+    font-style: normal;
+    /*font-size: medium;
+    font-family: Chalkduster;   */
+}
+
+.saisi
+{
+    float: right;
+    width:18%;
+    height: 10%;
+    border: none;
+    border-radius: 5%;
+    margin: 0.8em 5% 0% 0%;
+    text-align: center;
+   
+}
+
+.indicateur_Repas
+{
+    float: right;
+    width: 2em;
+    height: 1.3em;
+    border-radius: 5px;
+    margin: 0.8em 10% 0% 0%;
+    text-align: center;
+    background-color: white;
+}
+
+.boutonPlus
+{
+    border: none;
+    border-radius: 20%;
+    margin: 0% 2% 0% 2%;
+    text-align: center;
+    background-color: darkgray;
+    color: white;
+    height: 2em;
+    width: 2em;
+    
+    float: right;
+    margin-top: 0.6em;
+}
+
+.boutonMoins
+{
+    border: none;
+    border-radius: 20%;
+    margin: 0% 2% 0% 2%;
+    text-align: center;
+    background-color: darkgray;
+    color: white;
+    height: 2em;
+    width: 2em;
+    
+    float: right;
+    margin-top: 0.6em;
+}
+
+.boutonPrecedent
+{
+    float: left;
+    border: none;
+    border-radius: 20%;
+    margin: 0.8em 2% 0% 6%;
+    text-align: center;
+    background-color: darkgray;
+    color: white;
+    height: 2.4em;
+    width: 2.4em;
+}
+
+.boutonSuivant
+{
+    float: left;
+    border: none;
+    border-radius: 20%;
+    margin: 0.8em 2% 0% 2%;
+    text-align: center;
+    background-color: darkgray;
+    color: white;
+    height: 2.4em;
+    width: 2.4em;
+}
+
+input[type=submit]
+{
+    display: block;
+    margin: 3em auto 0% auto;
+    height: 3em;
+    width: 30%;
+    font-family: Chalkduster;
+ }
+
+input.btn-bloc[type="submit"]
+{
+    width: 90%;
+    margin-top: 20%;
+    font-size: small;
+}
+
+#inputEmail,#inputPassword{
+    max-width: 25em;
+}
+.btn-primaire
+ {
+    color: #FFF;
+    background-color: #337AB7;
+    border-color: #2E6DA4;
+}
+ 
+#texte_accueil
+{
+    /*size: 1pts;*/
+    font-size: 1.4em;
+    color: white;
+    text-align: center;
+    font-family: Chalkduster;
+}
+
+#texte_version
+{
+    height:  1em;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    font-family: Chalkduster;
+}
+#identifiant
+{
+     height:  1em;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    font-family: Chalkduster;
+}
+.graphe{
+    width: 100%;
+    height: 100%;
+    background-color: #D2F5E7;
+    
+}
+#valeur_type
+{	
+    bottom:7%;
+    position: fixed;
+    white-space: normal;
+   
+    background-color: #81B29F;
+    width: 104%;
+   
+}
+
+.valeurType
+{
+    float: left;
+    width: 25%;
+    text-align: center;   
+    color: white;
+    font-family: Chalkduster;
+    border: 1px solid white;
+    height: 3em;
+    line-height:1em;
+    font-size: x-small;
+}   
+  
+#valeurType
+{
+    float: left;
+    width: 25%;
+    text-align: center;   
+    color: white;
+    font-family: Chalkduster;
+    border: 1px solid white;
+    height: 3em;
+    line-height:4em;
+}
+
+
+.boutonPlus,
+.boutonMoins,
+.boutonPrecedent,
+.boutonSuivant,
+.boutton,
+.bouttonResultats,
+.boutton_accueil,
+#sauvegarde,
+#sauvegardePesee,
+#gestion_periode,
+#userConnexion,
+#createUser,
+:focus
+{
+    outline: none;
+}

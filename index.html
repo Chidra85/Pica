@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes.
+        See https://issues.apache.org/jira/browse/CB-4323 -->
+
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1,
+        width=device-width, height=device-height" />
+    <!-- , target-densitydpi=device-dpi -->
+    <!--<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />-->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/css.css" />
+    <title>Connection</title>
+</head>
+
+
+<body>
+    <!-- En-tete -->
+
+    <div id="footerBackgroundIndex">
+        <div id="footerBorderIndex">
+            <p class="descriptionTextLogin" align="center">
+                Veuillez vous identifier
+            </p>
+        </div>
+    </div>
+
+    <!-- Contenu -->
+    <br>
+    <div id="row">
+        <div class="container">
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                    </div>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">Mot de passe</label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                    </div>
+                </div>
+                <br>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"> Se rappeller de moi </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10 boutonsLogin">
+                        <button type="button" class="btn btn-default btn btn-primary" id="userConnexion">Envoyer</button>
+                        <button type="button" class="btn btn-default btn btn-primary" id="createUser">Créer votre compte</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <!--<script type="text/javascript" src="cordova.js"></script>-->
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/notify.min.js"></script>
+
+
+    <script type="text/javascript" src="js/DB_login.js"></script>
+
+</body>
+
+</html>

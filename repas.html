@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes.
+        See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1,
+        width=device-width, height=device-height" />
+    <!-- , target-densitydpi=device-dpi -->
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/css.css" />
+    <title>Vue Repas</title>
+
+</head>
+
+
+<body>
+    <!-- En-tete -->
+    <div id="footerBackground">
+        <div id="footerBorder">
+            <p class="descriptionText" align="center">
+                N'oublies pas d'enregistrer le nombre de personnes présentes à chaque repas chez toi, tous les jours.
+            </p>
+        </div>
+    </div>
+
+    <!-- Contenu -->
+    <div id="appBackground">
+        <div id="Date">
+            <div>
+                <button class="boutonPrecedent" type="button">
+                    <</button>
+            </div>
+            <div>
+                <h1><span id="dateDuJour">Date du jour</span></h1></div>
+            <div>
+                <button class="boutonSuivant" type="button">></button>
+            </div>
+        </div>
+
+        <div id="tableau">
+            <form>
+                <div class="lignesFormulaireBleu_Repas">
+                    <!--<img class="iconesFormulaire" src="images/petit_dej.png" alt="P'tit déj"/>-->
+                    <p class="intitule" id="ptitDej"><span class="contenuDecale">P'tit déj</span>
+                        <button class="boutonPlus" type="button">+</button>
+                        <button class="boutonMoins" type="button">-</button>
+                        <label class="indicateur_Repas"><span id="valeurPetitDej">0</span></label>
+                    </p>
+                </div>
+                <div class="lignesFormulaireGris_Repas">
+                    <!--<img class="iconesFormulaire" src="images/dejeuner.png" alt="Déjeuner"/>-->
+                    <p class="intitule" id="dejeuner"><span class="contenuDecale">Déjeuner</span>
+                        <button class="boutonPlus" type="button">+</button>
+                        <button class="boutonMoins" type="button">-</button>
+                        <label class="indicateur_Repas"><span id="valeurDejeuner">0</span></label>
+                    </p>
+                </div>
+                <div class="lignesFormulaireBleu_Repas">
+                    <!--<img class="iconesFormulaire" src="images/gouter.png" alt="Goûter"/>-->
+                    <p class="intitule" id="gouter"><span class="contenuDecale">Goûter</span>
+                        <button class="boutonPlus" type="button">+</button>
+                        <button class="boutonMoins" type="button">-</button>
+                        <label class="indicateur_Repas"><span id="valeurGouter">0</span></label>
+                    </p>
+                </div>
+                <div class="lignesFormulaireGris_Repas">
+                    <!--<img class="iconesFormulaire" src="images/diner.png" alt="Dîner"/>-->
+                    <p class="intitule" id="diner"><span class="contenuDecale">Dîner</span>
+                        <button class="boutonPlus" type="button">+</button>
+                        <button class="boutonMoins" type="button">-</button>
+                        <label class="indicateur_Repas"><span id="valeurDiner">0</span></label>
+                    </p>
+                </div>
+                <div class="lignesFormulaireEnregistrer_Repas">
+                    <button type="button" class="btn btn-primary" id="sauvegarde">Enregistrer</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Pied de page -->
+   <div class="buttonbar">
+        <button class="boutton_accueil" type="button" onClick="self.location.href = 'accueil.html'">
+                <img src="images/pica2.png">
+            <br><span>Accueil</span><span id="active"></span></button>
+        <button class="boutton_accueil" type="button" onClick="self.location.href = 'repas.html'">
+            <img src="images/saisie-bleue.png" alt="repas">
+            <br><span>Repas</span></button>
+        <button class="boutton_accueil" type="button" onClick="self.location.href = 'pesee.html'">
+            <img src="images/poids.png" alt="pesee">
+            <br><span>Pesées</span></button>
+        <button class="boutton_accueil" type="button" onClick="self.location.href = 'resultats.html'">
+            <img src="images/stat.png">
+            <br><span>Résultats</span><span id="active"></span> </button>
+    </div>
+    <!-- Scripts -->
+    <!--<script type="text/javascript" src="cordova.js"></script>-->
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/moment-with-locales.min.js"></script>
+
+    <script type="text/javascript" src="js/DB_repas.js"></script>
+
+</body>
+
+</html>

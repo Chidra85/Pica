@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes.
+        See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1,
+        width=device-width, height=device-height" />
+    <!-- , target-densitydpi=device-dpi -->
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/css.css" />
+    <title>Vue Pesée</title>
+
+</head>
+
+
+<body>
+    <!-- En-tete -->
+    <div id="footerBackground">
+        <div id="footerBorder">
+            <p class="descriptionText" align="center">
+                Quand tu jettes une poubelle, penses à la peser et à l'enregistrer en dessous dans la bonne catégorie.
+            </p>
+        </div>
+    </div>
+
+    <!-- Contenu -->
+    <div id="appBackground">
+        <div id="Grammes">
+            <h1><span id= "titre_Grammes">Grammes</span></h1> </div>
+        <div id="tableau">
+            <form>
+                <div class="lignesFormulaire_Pesee"><img class="iconesFormulaire" src="images/biodechet.png" alt="biodechet !" />
+                    <p class="intitule"><span class="contenuDecale">Bio dechets</span>
+                        <input class="saisi" type="number" id="bio_dechet" name="saisi" />
+                    </p>
+                </div>
+                <div class="lignesFormulaire1_Pesee"><img class="iconesFormulaire" src="images/recyclable.png" alt="recyclabe !" />
+                    <p class="intitule"><span class="contenuDecale">Recyclabe</span>
+                        <input class="saisi" type="number" id="Recyclabe" name="saisi" />
+                    </p>
+                </div>
+                <div class="lignesFormulaire_Pesee"><img class="iconesFormulaire" src="images/verre.png" alt="verre" />
+                    <p class="intitule"><span class="contenuDecale">Verre</span>
+                        <input class="saisi" type="number" id="Verre" name="saisi" />
+                    </p>
+                </div>
+                <div class="lignesFormulaire1_Pesee"><img class="iconesFormulaire" src="images/grise.png" alt="poubelle grise !" />
+                    <p class="intitule"><span class="contenuDecale">Poubelle grise</span>
+                        <input class="saisi" type="number" id="Poubelle_grise" name="saisi" />
+                    </p>
+                </div>
+                <div class="lignesFormulaire_Pesee"><img class="iconesFormulaire" src="images/dechetterie.png" alt="Dechetterie !" />
+                    <p class="intitule"><span class="contenuDecale">Dechetterie</span>
+                        <input class="saisi" type="text" id="Dechetterie" name="saisi" />
+                    </p>
+                </div>
+                <div class="lignesFormulaireEnregistrer_Repas">
+                    <button class="btn btn-primary" type="button" id="sauvegardePesee">Enregistrer</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Pied de page -->
+    <div class="buttonbar">
+        <button class="boutton_accueil" type="button" onClick="self.location.href = 'accueil.html'">
+                <img src="images/pica2.png">
+            <br><span>Accueil</span><span id="active"></span></button>
+        <button class="boutton_accueil" type="button" onClick="self.location.href = 'repas.html'">
+            <img src="images/saisie.png" alt="repas">
+            <br><span>Repas</span></button>
+        <button class="boutton_accueil" type="button" onClick="self.location.href = 'pesee.html'">
+            <img src="images/poids-bleue.png" alt="pesee">
+            <br><span>Pesées</span></button>
+        <button class="boutton_accueil" type="button" onClick="self.location.href = 'resultats.html'">
+            <img src="images/stat.png">
+            <br><span>Résultats</span><span id="active"></span> </button>
+    </div>
+
+        <!-- Scripts -->
+        <!--<script type="text/javascript" src="cordova.js"></script>-->
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="js/moment-with-locales.min.js"></script>
+
+        <script type="text/javascript" src="js/DB_pesee.js"></script>
+
+</body>
+
+</html>
